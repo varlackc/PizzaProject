@@ -1,4 +1,6 @@
 $.getJSON('http://files.olo.com/pizzas.json', function(data) {
     //data is the JSON string
-    console.log(data);
+    data.forEach(element => {
+        console.log(element);
+    });
 });
