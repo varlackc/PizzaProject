@@ -33,7 +33,6 @@ $.getJSON('http://files.olo.com/pizzas.json', function(data) {
     }
     keys.sort(comparison);
 
-
     // load the content
     showContent();
 
