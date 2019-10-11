@@ -1,4 +1,4 @@
-//
+/**/
 
 // Get the Json data
 $.getJSON('http://files.olo.com/pizzas.json', function(data) {
