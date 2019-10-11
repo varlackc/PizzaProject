@@ -33,8 +33,6 @@ $.getJSON('http://files.olo.com/pizzas.json', function(data) {
     }
     keys.sort(comparison);
 
-    //create the DOM element 
-    var DomObject = document.getElementById("pizzaToppings");
 
     // load the content
     showContent();
