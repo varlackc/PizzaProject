@@ -1,4 +1,11 @@
-/**/
+/*
+Program: Pizza Toppings Rater
+Author: Carlos Maxwell Varlack
+Description: This program takes a JSON file from an API
+The JSON file contains a list of Pizza topings. 
+The application creates a list of the 20 most popular 
+toppings. 
+*/
 
 // Get the Json data
 $.getJSON('http://files.olo.com/pizzas.json', function(data) {
