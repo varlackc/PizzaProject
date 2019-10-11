@@ -49,6 +49,7 @@ $.getJSON('http://files.olo.com/pizzas.json', function(data) {
     document.write("</tbody></table>");
 });
 
+// This function shows the content on the HTML file
 function showContent() {
     var content = "<h2>This Application Shows The Most Popular Toppings</h2>";
     content += '<table class="table"><thead><tr><th scope="col">#</th scope ="col"><th scope="col">Topping</th><th scope="col">Count</th></tr></thead>';
