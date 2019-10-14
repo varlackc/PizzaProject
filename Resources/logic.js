@@ -42,7 +42,7 @@ $.getJSON('http://files.olo.com/pizzas.json', function(data) {
     }
     keys.sort(comparison);
 
-    // load the content
+    // load the content to the screen
     showContent();
 
     //loop through the array to show data
