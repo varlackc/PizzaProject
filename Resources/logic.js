@@ -41,7 +41,6 @@ $.getJSON('http://files.olo.com/pizzas.json', function(data) {
         return secondCount - firstCount;
     }
     keys.sort(comparison);
-
     // load the content to the screen
     showContent();
 
