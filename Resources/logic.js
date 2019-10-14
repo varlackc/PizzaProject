@@ -7,7 +7,7 @@ The application creates a list of the 20 most popular
 toppings. 
 */
 
-// Get the Json data
+// Get the Json data of the different pizza toppings
 $.getJSON('http://files.olo.com/pizzas.json', function(data) {
     //declare variables
     var topping;
