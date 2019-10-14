@@ -49,7 +49,7 @@ $.getJSON('http://files.olo.com/pizzas.json', function(data) {
     for (var i = 0; i < listLength; i++) {
         var key = keys[i]; // create individual key from the key array
 
-        // add elements to the page
+        // add table elements to the page
         document.writeln("<tr><td> " + (i + 1) + "</td> <td>" + key + "</td> <td>" + counts[key] +
             "</td></tr>");
     }
