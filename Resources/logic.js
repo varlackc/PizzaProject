@@ -9,7 +9,7 @@ toppings.
 
 // Get the Json data of the different pizza toppings
 $.getJSON('http://files.olo.com/pizzas.json', function(data) {
-    //declare variables
+    //declare variables and arrays
     var topping;
     var word;
     var counts = {};
