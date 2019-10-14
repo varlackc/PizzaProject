@@ -34,7 +34,7 @@ $.getJSON('http://files.olo.com/pizzas.json', function(data) {
         });
     });
 
-    //sort the keys array
+    //sort the keys array data
     function comparison(first, second) {
         var firstCount = counts[first];
         var secondCount = counts[second];
