@@ -53,7 +53,7 @@ $.getJSON('http://files.olo.com/pizzas.json', function(data) {
         document.writeln("<tr><td> " + (i + 1) + "</td> <td>" + key + "</td> <td>" + counts[key] +
             "</td></tr>");
     }
-    //close the table
+    //close the table tags
     document.write("</tbody></table>");
 });
 
