@@ -1,4 +1,4 @@
-# PizzaProject
+# :pizza: PizzaProject
 The purpose of this application is to get data from an API using the JSON format. 
 Once the data is received from the API, the application will process and display 
 the results. 
